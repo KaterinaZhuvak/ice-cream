@@ -1,0 +1,33 @@
+.products {
+  background-image: url(../../../../public/images/products/productBg.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+.productHeading {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+  padding-bottom: 140px;
+}
+.product {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+}
+.productsList {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 29px;
+}

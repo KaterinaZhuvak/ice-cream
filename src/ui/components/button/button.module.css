@@ -1,0 +1,34 @@
+.button{
+    padding:12px 36px;
+    border-radius: 9px;
+}
+.primary{
+    composes: button ;
+    background-color: #F8D24E;
+    border: 0;
+    
+}
+.primary:hover{
+    background: #0A8817;
+
+}
+.arrow{
+    margin-left: 8px;
+}
+.primary:focus svg, .primary:active svg , .outline:focus svg, .outline:active svg{
+    fill: white;
+} 
+.outline {
+    composes:button;
+    background-color: transparent;
+    border: 2px solid #F8D24E;
+    cursor: pointer;
+}
+.outline:hover{
+    border: 2px solid #0A8817;
+}
+.outline:focus , .outline:active{
+    border: 2px solid #0A8817;
+    color: white;
+}
+    

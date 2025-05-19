@@ -1,0 +1,41 @@
+.hero {
+  padding: 45px 0px 332px;
+  background-image: url(../../../../public/images/hero/dots.svg),
+    url("../../../../public/images/hero/ice-creams.png"),
+    url(../../../../public/images/hero/desktop.png);
+  background-repeat: no-repeat;
+  background-size: 1200px auto, 225px 225px, 456px 560px;
+  background-position: bottom 0 left calc(50% - 21px),
+    bottom 63px left calc(50% - 440px), bottom 0px right calc(50% - 250px);
+}
+.content {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: left;
+}
+.downContent {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.heroDes {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  color: #fff;
+}
+.arrow {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+}
+.heroContent {
+  position: absolute;
+  bottom: 285px;
+  left: 280px;
+}
+.hero-container {
+  position: relative;
+}

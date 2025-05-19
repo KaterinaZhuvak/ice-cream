@@ -1,0 +1,32 @@
+@import-normalize;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Seymour+One&family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap");
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Seymour One", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "DM Sans", sans-serif;
+  --fon-color: #fcfcfc;
+  --black: #131313;
+}
+
+.container {
+  /* width:1769px; */
+  margin: 0 auto;
+  padding: 0 16px;
+}
+body {
+  font-family: var(--font-family);
+  background-color: #84a178;
+  color: var(--fon-color);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
