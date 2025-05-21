@@ -20,12 +20,16 @@ export default function Product({
   return (
     <>
       <div className={` ${styles.productItem} ${styles[variant]}`}>
-        <div className={styles.imgOverlay}>
-          <img className={styles.img} src={src} alt="img" />
+        <div className={styles.picOverlay}>
+          <div className={styles.imgOverlay}>
+            <img className={styles.img} src={src} alt="img" />
+          </div>
         </div>
-        <h3 className={styles.productTitle}>{title}</h3>
-        <p className={styles.productDes}>{children}</p>
-        {/* <use href="../../../../public/icons/> </use> */}
+        <div className={styles.productInfo}>
+          <h3 className={styles.productTitle}>{title}</h3>
+          <p className={styles.productDes}>{children}</p>
+          <img className={styles.arrow} src="/icons/Arrow.svg" alt="arrow" />
+        </div>
       </div>
       ;
     </>

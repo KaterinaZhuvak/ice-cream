@@ -4,22 +4,49 @@
     "title": "ice cream",
     "description": "Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer",
     "image": "/Images/products/mint.png",
-    "variant": "",
-    "kcal": "320",
-    "protein": "4g",
-    "fats": "8g",
-    "carbs": "40.4g"
+    "ingredients": [
+      { "name": "milk", "amount_g": 100 },
+      { "name": "belgian chocolate", "amount_g": 50 },
+      { "name": "cream", "amount_g": 30 },
+      { "name": "sugar", "amount_g": 20 },
+      { "name": "vanilla sugar", "amount_g": 5 }
+    ],
+    "kcal": 280,
+    "protein": 4.2,
+    "fats": 18.5,
+    "carbs": 24.3
   },
   {
     "id": 2,
     "title": "ice coffee",
     "description": "Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers",
-    "image": "/Images/products/coffe.png"
+    "image": "/Images/products/coffe.png",
+    "ingredients": [
+      { "name": "milk", "amount_g": 120 },
+      { "name": "cocoa powder", "amount_g": 15 },
+      { "name": "sugar", "amount_g": 25 },
+      { "name": "vanilla sugar", "amount_g": 5 }
+    ],
+    "kcal": 150,
+    "protein": 3.1,
+    "fats": 4.8,
+    "carbs": 22.6
   },
   {
     "id": 3,
     "title": "milkshakes",
     "description": "Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice",
-    "image": "/Images/products/milkshake.png"
+    "image": "/Images/products/milkshake.png",
+    "ingredients": [
+      { "name": "cream", "amount_g": 60 },
+      { "name": "belgian chocolate", "amount_g": 40 },
+      { "name": "cocoa powder", "amount_g": 10 },
+      { "name": "sugar", "amount_g": 25 },
+      { "name": "vanilla sugar", "amount_g": 5 }
+    ],
+    "kcal": 320,
+    "protein": 3.5,
+    "fats": 22.0,
+    "carbs": 27.5
   }
 ]
