@@ -4,6 +4,7 @@
     "title": "ice cream",
     "description": "Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer",
     "image": "/Images/products/mint.png",
+    "variant": "#aec6a5",
     "ingredients": [
       { "name": "milk", "amount_g": 100 },
       { "name": "belgian chocolate", "amount_g": 50 },
@@ -11,32 +12,39 @@
       { "name": "sugar", "amount_g": 20 },
       { "name": "vanilla sugar", "amount_g": 5 }
     ],
-    "kcal": 280,
-    "protein": 4.2,
-    "fats": 18.5,
-    "carbs": 24.3
+
+    "macronutrients": [
+      { "name": "kcal", "amount": 280 },
+      { "name": "protein", "amount": 4.2 },
+      { "name": "fats", "amount": 18.2 },
+      { "name": "carbs", "amount": 24.3 }
+    ]
   },
   {
     "id": 2,
     "title": "ice coffee",
     "description": "Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers",
     "image": "/Images/products/coffe.png",
+    "variant": "#efd478",
     "ingredients": [
       { "name": "milk", "amount_g": 120 },
       { "name": "cocoa powder", "amount_g": 15 },
       { "name": "sugar", "amount_g": 25 },
       { "name": "vanilla sugar", "amount_g": 5 }
     ],
-    "kcal": 150,
-    "protein": 3.1,
-    "fats": 4.8,
-    "carbs": 22.6
+    "macronutrients": [
+      { "name": "kcal", "amount": 150 },
+      { "name": "protein", "amount": 3.1 },
+      { "name": "fats", "amount": 4.8 },
+      { "name": "carbs", "amount": 22.6 }
+    ]
   },
   {
     "id": 3,
     "title": "milkshakes",
     "description": "Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice",
     "image": "/Images/products/milkshake.png",
+    "variant": "#d6936d",
     "ingredients": [
       { "name": "cream", "amount_g": 60 },
       { "name": "belgian chocolate", "amount_g": 40 },
@@ -44,9 +52,11 @@
       { "name": "sugar", "amount_g": 25 },
       { "name": "vanilla sugar", "amount_g": 5 }
     ],
-    "kcal": 320,
-    "protein": 3.5,
-    "fats": 22.0,
-    "carbs": 27.5
+    "macronutrients": [
+      { "name": "kcal", "amount": 320 },
+      { "name": "protein", "amount": 3.5 },
+      { "name": "fats", "amount": 22.0 },
+      { "name": "carbs", "amount": 27.5 }
+    ]
   }
 ]

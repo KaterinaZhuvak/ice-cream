@@ -5,15 +5,32 @@ import Products from "./ui/sections/products/Products.jsx";
 import Modal from "./ui/components/modal/Modal.jsx";
 import data from "./products.json";
 import { Component } from "react";
+
 class App extends Component {
   state = {
     isModalOpen: false,
+    isDetailedModal: false,
+    productData: null,
   };
+
   handleModal = () => {
+    console.log("click");
     this.setState((prevState) => ({
       isModalOpen: !prevState.isModalOpen,
     }));
     console.log(this.state.isModalOpen);
+  };
+
+  choseModal = () => {
+    this.setState((prevState) => ({
+      isDetailedModal: !prevState.isDetailedModal,
+    }));
+  };
+
+  selectedProduct = (product) => {
+    this.setState(() => ({
+      productData: product,
+    }));
   };
 
   render() {
@@ -21,9 +38,17 @@ class App extends Component {
       <div className="App">
         <Header handleModal={this.handleModal} />
         <Hero />
-        <Products data={data} />
+        <Products
+          data={data}
+          selectedProduct={this.selectedProduct}
+          handleModal={this.handleModal}
+        />
         {this.state.isModalOpen && (
-          <Modal data={data} handleModal={this.handleModal} />
+          <Modal
+            data={this.state.productData}
+            handleModal={this.handleModal}
+            isDetailedModal={this.state.isDetailedModal}
+          />
         )}
       </div>
     );
